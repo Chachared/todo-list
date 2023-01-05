@@ -1,6 +1,7 @@
 export interface Todo {
-    content: string;
-    done: boolean;
-    editMode: boolean;
-  }
-  
+  _id?: string;
+  createdAt?: string;
+  content: string;
+  done: boolean;
+  editMode: boolean;
+}
